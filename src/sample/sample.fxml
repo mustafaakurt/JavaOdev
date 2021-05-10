@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+<AnchorPane id="AnchorPane" prefHeight="618.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button fx:id="button" layoutX="257.0" layoutY="161.0" onAction="#test" text="lololol" />
-      <Button fx:id="XmlOku" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#BCXmlOku" prefHeight="25.0" prefWidth="97.0" text="XmlOku" />
-      <Button layoutX="256.0" layoutY="14.0" mnemonicParsing="false" text="Button" prefWidth="97.0" onAction="#BCTextOku" />
+      <Button fx:id="XmlOku" layoutX="107.0" layoutY="137.0" mnemonicParsing="false" onAction="#BCXmlOku" prefHeight="88.0" prefWidth="353.0" text="Dosya Seç !" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="1.0" right="1.0" />
+         </padding></Button>
+      <Button fx:id="Bar" layoutX="107.0" layoutY="235.0" mnemonicParsing="false" onAction="#BCbar" prefHeight="50.0" prefWidth="175.0" text="Bar" textAlignment="CENTER" visible="false" />
+      <Button fx:id="Line" layoutX="285.0" layoutY="235.0" mnemonicParsing="false" onAction="#BCline" prefHeight="50.0" prefWidth="175.0" text="Line" textAlignment="CENTER" visible="false">
+         <padding>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </padding></Button>
     </children>
 </AnchorPane>
